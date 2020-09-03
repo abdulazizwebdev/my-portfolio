@@ -4,12 +4,19 @@
 @import 'base/variables';
 @import 'base/mixins';
 
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin-top: 25px;
+}
 
 @import 'blocks/promo';
 @import 'blocks/title';
 @import 'blocks/button';
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
+@import 'blocks/about';
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -25,3 +32,4 @@
     width: 1140px;
     margin: 0 auto;
 }
+
