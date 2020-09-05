@@ -18,3 +18,12 @@ overlay.addEventListener('click', e => {
         menu.classList.remove('active');
     }
 });
+
+// ratings
+
+const percentage = document.querySelectorAll('.skills__ratings-counter'),
+      line = document.querySelectorAll('.skills__ratings-line span');
+
+percentage.forEach((elem, i) => {
+    line[i].style.width = elem.innerHTML;
+});
