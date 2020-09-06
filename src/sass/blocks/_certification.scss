@@ -1,0 +1,25 @@
+.certification {
+    background-color: #000;
+    padding-top: 120px;
+    position: relative;
+    &__wrapper {
+        position: relative;
+        margin-top: 60px;
+    }
+    &__item img {
+        display: block;
+        margin: 0 auto;
+    }
+    .right, .left {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%);
+        cursor: pointer;
+    }
+    .right {
+        right: 30px;
+    }
+    .left {
+        left: 75px;
+    }
+}
