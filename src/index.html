@@ -579,22 +579,54 @@
         </div>
     </section>
 
-    <section class="certification">
+    <section class="contacts">
         <div class="container">
-            <h2 class="title title_fz16 title_section">Сертификаты</h2>
-            <div class="divider"></div>
-            <div class="certification__wrapper">
-                <div class="right">
-                    <img src="icons/right.svg" alt="right">
+            <div class="contacts__wrapper">
+                <div class="contacts__photo">
+                    <img src="img/contact__photo.jpg" alt="contact" class="contacts__img">                    
                 </div>
-                <div class="left">
-                    <img src="icons/left.svg" alt="left">
-                </div>
-                <!-- <div class="certification__item">
-                    <img src="img/certifications/1.jpg" alt="certification">
-                </div> -->
-                <div class="certification__item">
-                    <img src="img/certifications/1.jpg" alt="certification">
+                <div class="contacts__content">
+                    <h2 class="title title_fz16 contacts__title">Про меня</h2>
+                    <div class="title contacts__subtitle">Меня зовут Абдулазиз</div>
+                    <div class="divider"></div>
+                    <div class="title title_fz14 contacts__text">
+                        Любым удобным для вас способом:
+                    </div>
+                    <div class="contacts__social">
+                        <a href="#" class="contacts__link">
+                            <img src="icons/contacts/Github.svg" alt="Github">
+                        </a>
+                        <a href="#" class="contacts__link">
+                            <img src="icons/contacts/Instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" class="contacts__link">
+                            <img src="icons/contacts/Telegram.svg" alt="Telegram">
+                        </a>
+                    </div>
+                    <div class="title title_fz14 contacts__text">
+                        Или оставьте ваши данные и я сам вам напишу:
+                    </div>
+                    <form action="#" class="contacts__form">
+                        <div class="contacts__input">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Ваше имя</label>
+                        </div>
+                        <div class="contacts__input">
+                            <input type="email" id="email" name="email" required>
+                            <label for="text">Ваша почта</label>
+                        </div>
+                        <div class="contacts__textarea">
+                            <textarea name="text" id="text" aria-required="true"></textarea>
+                            <label for="text">Ваше сообщение</label>
+                        </div>
+                        <div class="contacts__triggers">
+                            <button class="contacts__btn btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input type="checkbox" required>
+                                <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

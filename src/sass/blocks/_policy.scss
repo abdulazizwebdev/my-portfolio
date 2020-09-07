@@ -1,0 +1,19 @@
+.policy {
+    background-color: #000000;
+    padding-top: 60px;
+    p {
+        margin-bottom: 0;
+    }
+    br {
+        margin-top: 4px;
+    }
+    &__wrapper {
+        color: #ffffff;
+        padding-top: 30px;
+        font-size: 14px;
+        span {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}
