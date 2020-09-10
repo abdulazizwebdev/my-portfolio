@@ -74,6 +74,12 @@
         input {
             margin-right: 10px;
         }
+        span a {
+            color: $main-color;
+            &:hover {
+                color: $main-color;
+            }
+        }
     }
     &__input {
         position: relative;
