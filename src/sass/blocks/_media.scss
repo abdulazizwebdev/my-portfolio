@@ -281,6 +281,11 @@
             grid-template: 45px 190px 45px / repeat(2, 220px);
         }
     }
+    .modal {
+        &__title {
+            font-size: 20px;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -377,6 +382,7 @@
         }
         &__form {
             grid-template-columns: 290px;
+            grid-template-rows: 45px 45px 190px;
         }
         &__textarea {
             grid-column: unset;
@@ -397,6 +403,14 @@
             width: 180px;
             margin: 0 auto;
             line-height: 18px;
+        }
+    }
+    .modal {
+        height: unset;
+        width: 270px;
+        padding: 10px;
+        &__title {
+            font-size: 15px;
         }
     }
 }
