@@ -37,6 +37,77 @@
     -ms-user-select: none;
     position: relative;
 }
+.status {
+    text-align: center;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.fadeIn {
+    animation-name: fadeIn;
+}
+.fadeOut {
+    animation-name: fadeOut;
+}
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+.fadeInOut {
+    animation-name: fadeInUp;
+}
+.fadeIn {
+    animation-name: fadeInUp;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes fadeInOut {
+    0% {
+        opacity: 1;
+        transform: none;        
+    }
+    100% {
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+}
+.pageup {
+    opacity: 0;
+    width: 26px ;
+    height: 26px;
+    position: fixed;
+    bottom: 100px;
+    right: 5%;
+    z-index: 30;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 1s all;
+}
 
 .container {
     width: 1140px;

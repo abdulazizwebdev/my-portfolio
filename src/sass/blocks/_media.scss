@@ -321,6 +321,9 @@
             width: 250px;
             padding-left: 20px;
         }
+        &__link {
+            font-size: 19px;
+        }
     }
     .hamburger {
         position: absolute;
@@ -377,7 +380,7 @@
 
         }
         &__subtitle {
-            font-size: 30px;
+            font-size: 28px;
             line-height: 40px;
         }
         &__form {
